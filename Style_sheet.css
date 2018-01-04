@@ -1,0 +1,130 @@
+header{
+  color: #ffffff;
+  font-family: impact,serif;
+
+  text-align: center;
+  font-size: 50px;
+  float: inherit;
+}
+
+.titlewd{
+  display: inline-block;
+  text-align: left;
+}
+
+.subtitlewd{
+  text-align: center;
+  font-style: italic;
+  color: #e6d5b5;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 15% 60% 20%;
+  grid-gap: 10px;
+}
+
+
+.col-1{
+  column-fill: balance;
+  color: #e6d5b5;
+
+}
+.col-1 ul{
+  list-style: none;
+  position: fixed;
+}
+.col-1 a{
+  text-decoration: none;
+  background-color: #e6d5b5;
+  color: #000000;
+  font-family: impact, serif;
+  font-size: 30px;
+  padding: 14px 10px;
+  text-align: center;
+  display: block;
+  }
+  .col-1 a:hover{
+    background-color: #e0ba59;
+  }
+
+.col-2{
+  text-align: left;
+  column-gap: 10px;
+  font-family: impact, serif;
+  font-size: 30px;
+  color: #e6d5b5;
+}
+.col-2 iframe{
+  width: 854px;
+  height: 481px;
+}
+.col-3{
+  color: #000000;
+  column-gap: 10px;
+  position: fixed;
+  top: 180px;
+  right: 40px;
+}
+
+.col-3 a{
+  text-decoration: none;
+  text-shadow: 3px 3px #000000;
+  font-family: impact, serif;
+  font-size: 30px;
+  color: #e6d5b5;
+  position: fixed;
+  top: 190px;
+  right: 40px;
+}
+
+.col-4{
+  padding-left: 250px;
+  font-family: impact, serif;
+  font-size: 30px;
+  color: #e6d5b5;
+}
+.showname{
+  position: relative;
+  width: 120px;
+  float: left;
+}
+.showname img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.showname > div{
+  background-color: rgba(0,0,0,0.75);
+  opacity: 0;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.3s linear;
+  text-shadow: #000 1px 1px 0;
+  color: #ccc;
+  text-align: center;
+}
+.showname:hover > div{
+  display: block;
+  opacity: 1.0;
+}
+.showname > div div{
+  padding: 5px 5px;
+}
+.showname h2{
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.showname p{
+  margin-bottom: 10px;
+}
