@@ -97,6 +97,29 @@ body {
   color: #e6d5b5;
   background-color: #000000;
 }
+
+.col-5{
+  padding-left: 250px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #e6d5b5;
+  background: #000000;
+  text-align: justify;
+  padding-right: 50px;
+}
+
+.col-5 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    padding-right: 20px;
+}
+
+h1{
+
+}
+
 .showname{
   position: relative;
   width: 120px;
@@ -138,4 +161,8 @@ body {
 
 .space{
   margin-top: 800px;
+}
+
+.space2{
+  margin-top: 100px;
 }
